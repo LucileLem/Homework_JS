@@ -1,0 +1,52 @@
+
+h1{
+  font-size: 40px;
+  color: grey;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.free_bikes{
+  color: green;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+
+.empty_slots{
+  color: red;
+  justify-content: center;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+
+.names{
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+table
+{
+    border-collapse: collapse;
+    background-color: #f4f4f4;
+    margin: auto
+}
+
+th
+{
+padding: 25px;
+font-family: "Roboto Condensed", sans-serif;
+font-weight: bold;
+font-size: 20px;
+}
+
+tr
+{
+  height: 30px;
+}
+
+td
+{
+  padding: inherit;
+  text-align: center;
+    border: 1px solid black;
+}
