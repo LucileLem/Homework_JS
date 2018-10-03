@@ -1,52 +1,73 @@
+body {
+  background-color: #666666;
+}
 
-h1{
+h1 {
   font-size: 40px;
-  color: grey;
+  color: white;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: lighter;
   text-align: center;
 }
 
-.free_bikes{
+p {
+  color: white;
+  font-style: oblique;
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: center;
+}
+img {
+  width: 170px;
+	height: auto;
+  padding: 25px;
+}
+                  /* COLONNES  */
+.free_bikes {
   color: green;
   font-family: "Roboto Condensed", sans-serif;
   text-align: center;
 }
 
-.empty_slots{
+.empty_slots {
   color: red;
   justify-content: center;
   font-family: "Roboto Condensed", sans-serif;
   text-align: center;
 }
 
-.names{
+.names {
   font-family: "Roboto Condensed", sans-serif;
+  color : white;
+  text-align: left;
 }
-
-table
-{
+                /* TABLEAU  */
+table {
     border-collapse: collapse;
-    background-color: #f4f4f4;
-    margin: auto
+    background-color: #545454;
+    margin: auto;
+    border-color: white;
 }
 
-th
-{
-padding: 25px;
+th {
+padding: 18px;
 font-family: "Roboto Condensed", sans-serif;
 font-weight: bold;
-font-size: 20px;
+font-size: 18px;
+border-color: white;
+border: 1px solid white;
 }
 
-tr
-{
-  height: 30px;
+tr {
+  padding: 35px;
+  height: 35px;
+  border-color: white;
+  color : #f4f4f4;
 }
 
-td
-{
+td {
   padding: inherit;
   text-align: center;
-    border: 1px solid black;
+  border: 1px solid black;
+  border-color: white;
 }
